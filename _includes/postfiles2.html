@@ -1,0 +1,7 @@
+<h3>Code/Data:</h3>
+{% assign loopfiles = include.files | split: "|" %}
+<ul>
+{% for file in loopfiles %}
+    <li><a href="/res/{{ page.datadir }}/{{ file | split:':' | first | strip }}">{{ file | split:':' | last | strip }}</a></li>
+{% endfor %}
+</ul>

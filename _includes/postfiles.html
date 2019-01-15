@@ -1,0 +1,8 @@
+<h3>Files:</h3>
+<ul>
+{% for file in site.static_files %}
+  {% if file.path contains '/res/'+page.datadir+'/' %}
+    <li><a href="{{ file.path }}">{{ file.path | split:'/' | last }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>

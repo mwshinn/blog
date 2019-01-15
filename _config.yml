@@ -1,0 +1,65 @@
+### Site info:
+title: "#include &lt;adlib.h&gt;"
+tagline: Max Shinn's blog
+author: Max Shinn
+email: max-aht-maxshinnpotential-doht-com
+description: "Max Shinn's blog."
+#keywords: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+locale: en_US
+permalink: /:year/:month/:day/:title.html
+
+### Personal info and site tools info:
+favicon:     "/favicon.ico"
+aboutme: I'm a neuroscience PhD student who analyzes data for fun. # these are shown on aboutme-sidebar.
+#aboutme_photo: 
+
+
+### Site setting:
+default_locale: "en" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp) and Polish (pl)
+
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Recent_Posts: "Recent Posts"
+      Tags: "Tags"
+      Previous: "Older"
+      Next: "Newer"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"
+      PostDate: "on "
+      Home: "Home"
+
+### your Blogroll info, only name can shown on the page.
+
+Blogroll:
+      - name: Freshman
+        href: http://yulijia.net/freshman
+        title: Another Jekyll blog theme
+      - name: author's website
+        href: http://yulijia.net/
+        title: Lijia Yu's website
+
+
+### Build settings
+markdown: kramdown
+#highlighter: pygments
+kramdown:
+        input: GFM
+        syntax_highlighter: rouge
+        hard_wrap: false
+        math_engine: mathjax
+        math_engine_opts:
+                preview: true
+                preview_as_code: false
+gems: [jekyll-paginate]
+paginate: 5
+excerpt_separator: <!-- more -->
+
+collections:
+  res:
+    output: true

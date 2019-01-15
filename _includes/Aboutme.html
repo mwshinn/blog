@@ -1,0 +1,13 @@
+<div class="sidebar-module about">
+  <h4>{{ site.locales[site.default_locale].Aboutme }}</h4>
+  <!--<img title="{{site.author}}" src="{{site.aboutme_photo}}" alt="{{site.author}}"/>-->
+  <span>{{site.aboutme}}</span>
+  <br />
+
+  {% if site.email != empty %}
+  <a href="mailto:{{site.email}}" title="mailto: {{site.email}}">Email</a> /
+  {% endif %}
+  <a href="https://launchpad.net/~mwshinn">Launchpad</a> /
+  <a href="http://www.maxshinnpotential.com">Homepage</a>
+
+</div>
