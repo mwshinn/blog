@@ -12,7 +12,7 @@ permalink: /:year/:month/:day/:title.html
 
 ### Personal info and site tools info:
 favicon:     "/favicon.ico"
-aboutme: I'm a neuroscience PhD student who analyzes data for fun. # these are shown on aboutme-sidebar.
+aboutme: I'm a neuroscientist who analyzes data for fun. # these are shown on aboutme-sidebar.
 #aboutme_photo: 
 
 
