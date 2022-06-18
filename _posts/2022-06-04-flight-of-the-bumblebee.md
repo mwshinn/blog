@@ -1,5 +1,5 @@
 ---
-title: Does Flight of the Bumblebee resemble bumblebee flight?
+title: Does "Flight of the Bumblebee" resemble bumblebee flight?
 author: Max Shinn
 layout: post
 datadir: bumblebee
@@ -8,21 +8,24 @@ tags: math opera stochastic-processes modeling stats
 ---
 
 [Flight of the Bumblebee](https://www.youtube.com/watch?v=X14kC-sEH0I) is one of
-the rare pieces of classical music which has cemented its place in pop culture.
-However, it is unclear whether its composer, Nikolai Rimsky-Korsakov, actually
-took inspiration from bumblebee flight patterns.  While the true answer is
-probably lost to history, a careful analysis of the music offers some insight
-into its composition.  Using evidence from ethology, mathematics, and music
-theory, I argue that *yes, it is very likely*[^a] that Rimsky-Korsakov observed
-and incorporated actual bumblebee flight patterns into his music.
+the rare pieces of classical music which, through its association with bees, has
+cemented its place in pop culture. However, it is unclear whether its composer,
+Nikolai Rimsky-Korsakov, actually took inspiration from bumblebee flight
+patterns. I address this question using new tools from ethology, mathematics,
+and music theory.  Surprisingly, the melody line of ``Flight of the Bumblebee''
+mimics a distinctive property of bumblebee flight, a property which was not
+formally discovered until decades after Rimsky-Korsakov's death.  Therefore,
+*yes, it is very likely*[^a] that Rimsky-Korsakov observed and incorporated
+actual bumblebee flight patterns into his music.
 
 In what follows, I assume the reader has a knowledge of high school level
-mathematics and basic music theory (chord changes, intervals, chromatic scale,
-etc.).
+mathematics and basic music theory (chord changes, intervals, scales, etc.).
+[This post is based on my recent preprint, available on
+SocArXiv.](https://osf.io/preprints/socarxiv/4v6nu/)
 
 ## Historical background
 
-The piece we now call "Flight of the Bumblebee" is actually an extract from one
+The piece we now call "Flight of the Bumblebee" actually comes from one
 of Rimsky-Korsakov's operas, "The Tale of Tsar Saltan".  The opera is based on a
 story by Alexander Pushkin, which is in turn based on several folk tales.  The
 hero, Prince Gvidon, is cast on a remote island by his jealous aunts.  While
@@ -297,7 +300,7 @@ deliberate use of whole-tone scale for the on-beats:
 
 Or for off-beats:
 
-{% include image.html name="whole-tone-melody-gladiators.png" caption="The whole-tone scale associated with each off-beat in Entry of the Gladiators." %}
+{% include image.html name="whole-tone-melody-gladiators-offbeats.png" caption="The whole-tone scale associated with each off-beat in Entry of the Gladiators." %}
 
 This means that the whole-tone scale seems to have been deliberately used by
 Rimsky-Korsakov, but not by Fučík, in constructing the melody line.
